@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using tareatr.cuatro;
 
-Console.WriteLine("Hello, World!");
+var estudiante = new Estudiante();
+
+Console.WriteLine(estudiante.Id);
